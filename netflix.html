@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix</title>
+    </head>
+
+    <style>
+        body{
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .profile-selection{
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            font-family: Arial;
+            
+        }
+        .column{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin: 30px auto;
+         
+           
+        }
+        p{
+            text-align: center;
+            color: rgb(128, 128, 128);
+            font-family: "Arial", "Helvetica", sans-serif;
+            font-size: 17px;
+        }
+        .profile{
+            height: 150px;
+            width: 150px;
+            border-radius: 10x;
+            object-fit: cover;
+            object-position:top;
+            border-radius: 5px;
+        }
+        .manage-button{
+         display: flex;
+         justify-content: center;
+        
+        }
+        .manage{
+            background-color: #141414;
+            border-color: rgb(128, 128, 128);
+            color: rgb(128, 128, 128);
+            border-style: solid;
+            font-size: 18px;
+            letter-spacing: 4px;
+            padding-bottom: 6.5px;
+            padding-top: 6.5px;
+            padding-right: 19.5px;
+            padding-left: 19.5px;
+            font-family: "Arial", "Helvetica", sans-serif;
+        }
+        
+        
+    </style>
+
+    <body>
+        <div>
+            <p class="profile-selection">Who's Watching?</p>
+            <div class="column">
+                <div>
+                    <img class="profile" src="Netflix-avatar.png">
+                    <p>lance</p>
+                </div>
+                <div>
+                    <img class="profile" src="1_TZM8zZ1NVX_mHIBbX74nJA.jpg">
+                    <p>aiah</p>
+                </div>
+                <div>
+                    <img class="profile" src="netflix-profile-pictures-5yup5hd2i60x7ew3.jpg">
+                    <p>DiMi</p>
+                </div>
+                <div>
+                    <img class="profile" src="c488340ad56e5454f4576f6c708b63aa.jpg">
+                    <p>test 1</p>
+                </div>
+                <div>
+                    <img class="profile" src="netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg">
+                    <p>test 2</p>
+                </div>
+            </div>
+
+            <div class="manage-button">
+                <button class="manage">Manage Profiles</button>
+            </div>
+            
+            
+            
+        </div>
+
+        </body>
+</html>
